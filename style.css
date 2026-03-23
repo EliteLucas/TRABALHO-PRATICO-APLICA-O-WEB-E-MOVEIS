@@ -385,6 +385,7 @@ body.dark-mode .section-block:nth-child(even) {
 
 .tags {
     display: flex;
+    flex-wrap: wrap;
     gap: 10px;
     margin: 1rem 0;
 }
@@ -472,6 +473,7 @@ body.dark-mode .section-block:nth-child(even) {
     flex-direction: column;
     gap: 15px;
     max-width: 500px;
+    width: 100%;
 }
 
 #contact-form input, #contact-form textarea {
@@ -500,4 +502,95 @@ body.dark-mode .section-block:nth-child(even) {
 
 #form-status {
     margin-top: 1rem;
+}
+
+@media (max-width: 850px) {
+    #main-header {
+        flex-direction: column;
+        padding: 15px 20px;
+        gap: 20px;
+        text-align: center;
+    }
+
+    #logo-container, #header-action {
+        justify-content: center;
+        flex: none;
+        width: 100%;
+    }
+
+    #header-nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    nav li:not(:last-child)::after {
+        display: none;
+    }
+
+    #header-nav a {
+        font-size: 1.1rem;
+    }
+
+    #main {
+        padding: 1rem;
+    }
+
+    .items-container {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 480px) {
+    #logo-container span {
+        font-size: 1.6rem;
+    }
+
+    #header-nav ul {
+        gap: 10px;
+    }
+
+    #header-nav a {
+        font-size: 1rem;
+    }
+
+    #buttonTheme img {
+        width: 15px;
+    }
+
+    .section-block {
+        padding: 1.5rem 1rem;
+    }
+
+    .items-container figcaption {
+        font-size: 1.2rem; 
+        word-wrap: break-word;
+    }
+
+    .formacao-item, .idioma-item, .curso-item, .livro-item {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+    }
+
+    .formacao-item .data {
+        min-width: auto;
+    }
+
+    .album-cover {
+        width: 100%;
+        max-width: 280px;
+        height: auto;
+        aspect-ratio: 1/1;
+    }
+
+    .contato-item {
+        flex-wrap: wrap; 
+        max-width: 100%;
+    }
+
+    .contato-item a {
+        word-break: break-all;
+        overflow-wrap: break-word;
+    }
 }
