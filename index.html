@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title>Portfólio pessoal - Lucas Orlandini</title>
+</head>
+
+<body>
+    <header id="main-header">
+        <a href="#" id="logo-container">
+            <img src="images/Elite-Logo.png" alt="Logo">
+            <span>EliteLucas</span>
+        </a>
+
+        <nav id="header-nav">
+            <ul>
+                <li><a href="#sobre-mim">Sobre mim</a></li>
+                <li><a href="#formacao">Formação</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+        <div id="header-action">
+            <button id="buttonTheme">
+                <img id="themeIcon" src="images/tema-escuro.png"
+                    alt="Icone de lua. Usado para trocar o tema para escuro">
+            </button>
+        </div>
+    </header>
+
+    <div id="main">
+        <section class="section-block" id="sobre-mim">
+            <header>
+                <h1>Sobre Mim</h1>
+            </header>
+
+            <article id="bio">
+                <p>
+                    Meu nome é <strong>Lucas Orlandini Nunes</strong>, tenho 18 anos e moro em Santos, São Paulo. Para o
+                    bem ou para o mal, desde criança passo bastante tempo no computador, o que despertou
+                    minha curiosidade sobre como a computação funciona. Por isso, um pouco antes de concluir o ensino
+                    médio, surgiu meu interesse na área de programação e engenharia de
+                    software. Ao longo dos anos, também desenvolvi um grande interesse por jogos digitais, especialmente
+                    os competitivos online e passava horas jogando com amigos. Sempre
+                    gostei de aprender sobre a cultura de outros países e, recentemente, comecei a estudar novos
+                    idiomas, além do inglês. Me considero uma pessoa de gostos bem variados,
+                    sempre buscando manter a mente aberta para diferentes estilos de música e entretenimento no geral.
+                </p>
+            </article>
+
+            <section id="hobbies">
+                <h2>Hobbies & Interesses</h2>
+                <ul id="hobbies-list">
+                    <li><a href="#jogos">Jogos (PC)</a></li>
+                    <li><a href="#animes">Animes</a></li>
+                    <li><a href="#musica">Música</a></li>
+                </ul>
+
+                <div class="media-grid">
+                    <div class="category-group" id="jogos">
+                        <h3>Jogos Favoritos</h3>
+                        <div class="items-container">
+                            <figure>
+                                <img src="images/capa-valorant.png" alt="Capa do jogo Valorant">
+                                <figcaption>Valorant</figcaption>
+                            </figure>
+                            <figure>
+                                <img src="images/capa-portal2.jpg" alt="Capa do jogo Portal 2">
+                                <figcaption>Portal 2</figcaption>
+                            </figure>
+                            <figure>
+                                <img src="images/capa-celeste.png" alt="Capa do jogo Celeste">
+                                <figcaption>Celeste</figcaption>
+                            </figure>
+                        </div>
+                    </div>
+
+                    <div class="category-group" id="animes">
+                        <h3>Animes Favoritos</h3>
+                        <div class="items-container">
+                            <figure>
+                                <img src="images/capa-evangelion.jpeg" alt="Capa do anime Neon Genesis Evangelion">
+                                <figcaption>Evangelion</figcaption>
+                            </figure>
+                            <figure>
+                                <img src="images/capa-sonnyboy.jpg" alt="Capa do anime Sonny Boy">
+                                <figcaption>Sonny Boy</figcaption>
+                            </figure>
+                            <figure>
+                                <img src="images/capa-sound!euphonium.jpg" alt="Capa do anime Sound! Euphonium">
+                                <figcaption>Sound! Euphonium</figcaption>
+                            </figure>
+                        </div>
+                    </div>
+
+                    <div class="category-group" id="musica">
+                        <h3>Música Favorita</h3>
+                        <figure class="album-cover" id="album-bad-bunny">
+                            <div class="img-container">
+                                <img src="images/capa-dtfm.png" alt="Capa do album DeBÍ TiRAR MáS FOToS de Bad Bunny">
+                                <div class="overlay">
+                                    <span class="play-icon">▶</span>
+                                </div>
+                            </div>
+                            <figcaption>DtFM - Bad Bunny</figcaption>
+
+                            <audio id="dtmfAudio">
+                                <source src="audio/dtmf_bad_bunny.mp3" type="audio/mpeg">
+                            </audio>
+                        </figure>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <section class="section-block" id="formacao">
+            <header>
+                <h1>Formação</h1>
+            </header>
+            <div class="formacao-item">
+                <div class="data">2025 - 2029</div>
+                <div class="conteudo">
+                    <h3>Bacharelado em Engenharia de Software</h3>
+                    <p>UNINTER (Em andamento)</p>
+                </div>
+            </div>
+
+            <div class="formacao-item">
+                <div class="data">2022 - 2024</div>
+                <div class="conteudo">
+                    <h3>Ensino Médio Técnico em Administração</h3>
+                    <p>SENAC Santos - Foco em Negócios e Marketing</p>
+                </div>
+            </div>
+
+            <h2>Idiomas</h2>
+                <ul>
+                    <li class="idioma-item"><a><strong>Inglês</strong> - Avançado</a></li>
+                </ul>
+
+            <h2>Cursos Complementares</h2>
+            <ul>
+                <li class="curso-item"><a>Harvard CS50x - Introdução à Ciência da Computação</a></li>
+                <li class="curso-item"><a>Hyperskill (JetBrains Academy) - Java Developer</a></li>
+            </ul>
+
+            <h2>Leituras Técnicas</h2>
+            <div>
+                <div class="livro-item">
+                    <span>📖</span>
+                    <p>Código Limpo (Robert C. Martin)</p>
+                </div>
+                <div class="livro-item">
+                    <span>📖</span>
+                    <p>Entendendo Algoritmos (Aditya Bhargava)</p>
+                </div>
+            </div>
+        </section>
+
+        </section>
+
+        <section class="section-block" id="portfolio">
+            <header>
+                <h1>Portfólio</h1>
+            </header>
+                <div class="projeto-card">
+                    <div class="projeto-info">
+                        <h3>Tic-Tac-Toe</h3>
+                        <p>Desenvolvido durante a trilha de <strong>Java Developer</strong> na JetBrains Academy.</p>
+                        <p>Neste projeto, apliquei conceitos de <strong>Programação Orientada a Objetos (POO)</strong> e
+                            lógica avançada.</p>
+
+                        <div class="tags">
+                            <span>Java</span>
+                            <span>Lógica</span>
+                            <span>Algoritmos</span>
+                        </div>
+
+                        <a href="https://github.com/EliteLucas/Tic-Tac-Toe" target="_blank" rel="noopener noreferrer"
+                            class="btn-projeto">
+                            Ver Repositório
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+        </section>
+
+        <section class="section-block" id="contato">
+            <header>
+                <h1>Contato</h1>
+            </header>
+
+            <div id="contato-direto">
+                <div class="contato-item">
+                    <span>Email:</span>
+                    <span>✉️</span>
+                    <a>lucasnunes3107@gmail.com</a>
+                </div>
+                <div class="contato-item">
+                    <span>Linkedin:</span>
+                    <span>🔗</span>
+                    <a href="https://linkedin.com/in/lucas-orlandini" target="_blank"
+                        rel="noopener noreferrer">linkedin.com/in/lucas-orlandini</a>
+                </div>
+                <div class="contato-item">
+                    <span>Github:</span>
+                    <span>💻</span>
+                    <a href="https://github.com/EliteLucas" target="_blank"
+                        rel="noopener noreferrer">github.com/EliteLucas</a>
+                </div>
+            </div>
+
+            <form id="contact-form">
+                <h2>Formulário de envio</h2>
+                <input type="text" id="nome" placeholder="Seu Nome" required>
+                <input type="email" id="email" placeholder="Seu E-mail" required>
+                <textarea id="mensagem" placeholder="Sua Mensagem" required></textarea>
+                <button type="submit" id="btn-enviar">Enviar Mensagem</button>
+            </form>
+            <p id="form-status"></p>
+        </section>
+
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
