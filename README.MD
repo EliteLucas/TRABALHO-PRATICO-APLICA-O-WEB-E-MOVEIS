@@ -32,8 +32,8 @@ de projetos.
 
 ## Como Visualizar
 
-1. Acesse o site hospedado no Github Sites:
-    link: 
+1. Acesse o site hospedado no GitHub Pages:
+    link: https://elitelucas.github.io/TRABALHO-PRATICO-APLICA-O-WEB-E-MOVEIS/ 
 	
 ## O que eu aprendi
 
