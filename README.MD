@@ -1,4 +1,5 @@
- _______                        __       ______   __  __           
+```
+_______                        __       ______   __  __           
 |       \                      |  \     /      \ |  \|  \          
 | $$$$$$$\  ______    ______  _| $$_   |  $$$$$$\| $$ \$$  ______  
 | $$__/ $$ /      \  /      \|   $$ \  | $$_  \$$| $$|  \ /      \ 
@@ -7,7 +8,7 @@
 | $$      | $$__/ $$| $$       | $$|  \| $$      | $$| $$| $$__/ $$
 | $$       \$$    $$| $$        \$$  $$| $$      | $$| $$ \$$    $$
  \$$        \$$$$$$  \$$         \$$$$  \$$       \$$ \$$  \$$$$$$                                                                  
-                                                                   
+                                                                   ```
 # Trabalho Prático de Aplicação Web e Móveis
 
 Este projeto é uma aplicação web responsiva desenvolvida como parte da minha graduação em Engenharia de Software. 
@@ -34,8 +35,7 @@ de projetos.
 1. Acesse o site hospedado no Github Sites:
     link: 
 	
-
-O que eu aprendi
+## O que eu aprendi
 
 Este projeto foi fundamental para consolidar meus conhecimentos em desenvolvimento front-end, permitindo-me:
 
